@@ -1,0 +1,23 @@
+{
+  "presets": [
+    "es2015",
+    "stage-0"
+  ],
+  "plugins": [
+    // "istanbul",
+    "transform-decorators-legacy"
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        "istanbul",
+        // "rewire"
+      ]
+    },
+    "development": {
+      "plugins": [
+        // ["annotate-console-log", { "scriptPath": "relative" }]
+      ]
+    }
+  }
+}

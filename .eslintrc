@@ -1,0 +1,18 @@
+{
+  "extends": ["canonical", "relaxed"],
+  "rules": {
+    "babel/no-invalid-this": 0,
+    "callback-return": 0,
+    // "curly": [2, "multi-or-nest", "consistent"],
+    "global-require": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unassigned-import": 0,
+    "import/no-named-as-default": 0,
+    "import/max-dependencies": 0,
+    "filenames/match-regex": 0,
+    "filenames/match-exported": 0,
+    "no-return-assign": 0,
+    "operator-linebreak": 0,
+    "promise/prefer-await-to-callbacks": 0,
+  }
+}

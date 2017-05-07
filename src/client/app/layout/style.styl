@@ -1,0 +1,39 @@
+
+.layout
+  display: flex
+  flex-direction: column
+
+  // .header
+  //   order: 1
+  // .menu
+  //   order: 2
+  // .content
+  //   order: 3
+  // .footer
+  //   order: 4
+
+.header
+  +media-query(all, max-width 300px)
+    display: none
+
+.menu
+  display: block
+  // +media-query(all, max-width 300px)
+  //   display: none
+
+.breadcrumb
+  display: block
+  margin: 1rem
+  margin-bottom: 0
+  // background: blue
+
+.content
+  margin: 1rem
+  margin-top: 0
+  // background: yellow
+
+
+.footer
+  +media-query(all, max-width 300px)
+    display: none
+

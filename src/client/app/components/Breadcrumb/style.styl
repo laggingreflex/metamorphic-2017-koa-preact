@@ -1,0 +1,20 @@
+
+// ol.breadcrumb
+//   border: 1px dotted
+// li.item
+//   border: 1px dotted
+
+ol.breadcrumb
+  display: flex
+  list-style: none
+
+li.item:not(:first-child):before
+  content: ' > '
+
+li.item:not(:first-child)
+  margin-left: .5em
+
+
+.breadcrumb
+  margin-bottom: 1em
+  // background: blue

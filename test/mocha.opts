@@ -1,0 +1,17 @@
+--timeout=12000
+--compilers js:babel-register
+--require babel-polyfill
+--require source-map-support/register
+--require require-up/register
+--require ignore-styles
+--require test/index.js
+--cache-dir coverage/.cache
+--report lcov
+--reporter spec
+--debug
+--bail
+--all
+--watch
+--instrument=false
+# -vvv
+--test-files=src/**/test.js

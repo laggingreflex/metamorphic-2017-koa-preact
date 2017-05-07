@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!--<title><%=htmlWebpackPlugin.options.title%></title>-->
+  </head>
+  <body>
+    <div id='loading'>Loading...</div>
+    <div id='app'></div>
+    <% htmlWebpackPlugin.files.js.forEach(js => { %>
+    <script type="text/javascript" src="<%= js %>" defer></script>
+    <% }) %><% htmlWebpackPlugin.files.css.forEach(css => { %>
+    <link type="text/css" rel="stylesheet" href="<%= css %>" lazyload>
+    <% }) %>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+
+.header, .header > *
+  display: flex
+  align-items: center
+
+.header
+  // border: 1px dotted
+  margin: 1em
+  padding: 1em
+  position: relative
+  .grow
+    flex-grow: 2
+  .search
+    margin-left: 1em
+
+.logo
+  img
+    max-height: 2em
+    margin-right: .5em
+  *
+    vertical-align: middle
+  .title
+    font-family: logo
+    font-size: 2em
+
+
+.social
+  +media-query(all, max-width 450px)
+    display: none
+  > *
+    margin-left: .2em
+    margin-right: .2em
+
+.search
+  +media-query(all, max-width 330px)
+    display: none
+  position: relative
+  button
+    position: relative
+    right: 1.5em
+    border: none
+    background: transparent
+
