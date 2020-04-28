@@ -101,7 +101,7 @@
     "mobx-localforage-store": "0.8.0",
     "mobx-observer": "0.1.1",
     "moment": "2.17.1",
-    "mongoose": "4.8.2",
+    "mongoose": "5.9.10",
     "ms": "0.7.2",
     "namespace-css-module-loader": "0.4.1",
     "node-sass": "4.5.0",
