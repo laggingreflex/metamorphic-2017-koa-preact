@@ -90,7 +90,7 @@
     "localforage": "1.4.3",
     "lodash": "4.17.4",
     "lodash.debounce": "4.0.8",
-    "lodash.merge": "4.6.0",
+    "lodash.merge": "4.6.2",
     "markdown-loader": "2.0.0",
     "marked": "^0.3.6",
     "material-design-icons-iconfont": "3.0.3",
